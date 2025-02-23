@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Island Snow</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .top-header {
+            background-color: #f8f9fb;
+        }
+        .brand-logo {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        .brand-logo span {
+            color: red;
+        }
+        .nav-icons {
+            display: flex;
+            justify-content: space-between;
+        }
+        .navbar-nav .nav-link {
+            font-weight: bold;
+            text-transform: uppercase;
+            color: black !important;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-light top-header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <ul class="nav">
+                <li class="nav-item p-1"><a href="#" class="nav-link text-dark"><i class="bi bi-facebook"></i></a></li>
+                <li class="nav-item p-1"><a href="#" class="nav-link text-dark"><i class="bi bi-twitter"></i></a></li>
+                <li class="nav-item p-1"><a href="#" class="nav-link text-dark"><i class="bi bi-pinterest"></i></a></li>
+                <li class="nav-item p-1"><a href="#" class="nav-link text-dark"><i class="bi bi-instagram"></i></a></li>
+            </ul>
+            <ul class="nav">
+                <li class="nav-item p-1"><a href="#" class="nav-link text-dark"><i class="bi bi-house"></i></a></li>
+                <li class="nav-item p-1"><a href="#" class="nav-link text-dark"><i class="bi bi-search"></i></a></li>
+                <li class="nav-item p-1"><a href="#" class="nav-link text-dark"><i class="bi bi-person"></i></a></li>
+                <li class="nav-item p-1">
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" id="cartDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-cart"></i> <span class="badge bg-secondary">0</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="cartDropdown">
+                            <li><a class="dropdown-item" href="#">View Cart</a></li>
+                            <li><a class="dropdown-item" href="#">Checkout</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Middle Logo -->
+    <div class="text-center my-4">
+        <h1 class="brand-logo">Island<span>Snow</span></h1>
+    </div>
+    
+    <!-- Main Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">MEN</a>
+                        <ul class="dropdown-menu"></ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">WOMEN</a>
+                        <ul class="dropdown-menu"></ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">KIDS</a>
+                        <ul class="dropdown-menu"></ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">BRANDS</a>
+                        <ul class="dropdown-menu"></ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SEARCH</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
